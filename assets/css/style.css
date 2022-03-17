@@ -1,0 +1,199 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.rele {
+  position: relative;
+}
+
+.font-b {
+  font-weight: 800;
+}
+
+.spacing {
+  letter-spacing: 4px;
+}
+
+.rele-t {
+  position: relative;
+  left: 1%;
+}
+
+.pink {
+  color: #FF5B79;
+}
+
+.pink-b {
+  background-color: #FF5B79;
+}
+
+.blue {
+  background-color: #4BD4FF;
+}
+
+.yellow {
+  background-color: #FFDD2D;
+}
+
+.gray {
+  background-color: #868686;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 992px) {
+  .hide {
+    display: none;
+  }
+
+  .section .thumb {
+    top: 0;
+  }
+
+  .circle1 {
+    bottom: 26% !important;
+  }
+
+  .circle2 {
+    left: 19% !important;
+  }
+}
+@media (max-width: 768px) {
+  .section .thumb {
+    top: 6% !important;
+  }
+
+  .circle1 {
+    bottom: 35% !important;
+  }
+
+  .circle2 {
+    left: 3% !important;
+  }
+
+  .size-content {
+    font-size: 13px !important;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  .add {
+    margin-top: 20px !important;
+  }
+
+  .footer-content {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .circle1 {
+    height: 200px !important;
+    width: 200px !important;
+    bottom: 54% !important;
+  }
+
+  .sell-info {
+    width: 100vh !important;
+  }
+
+  .button-footer button {
+    padding: 10px 35px !important;
+  }
+}
+.section .sell-info .size-content button {
+  border: none;
+  background: none !important;
+}
+.section .sell-info .center {
+  font-size: 24px;
+}
+.section .sell-info .color-content button {
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+.section .add button {
+  padding: 10px 50px;
+  background-color: #FF5B79;
+  border: none;
+  color: #fff;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.section .thumb {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+}
+.section .circle1 {
+  height: 300px;
+  width: 300px;
+  background-color: #4BD4FF;
+  position: absolute;
+  bottom: 40%;
+  right: 0;
+  z-index: 10;
+}
+.section .circle2 {
+  height: 200px;
+  width: 200px;
+  background-color: #FF5B79;
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  z-index: 5;
+}
+
+.footer-content .last {
+  width: 60px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: -10%;
+}
+.footer .button-footer button {
+  padding: 10px 40px;
+}
+.footer .button-footer .prev {
+  background-color: #FF5B79;
+}
+.footer .button-footer .next {
+  background-color: #4BD4FF;
+}
+
+/*# sourceMappingURL=style.css.map */

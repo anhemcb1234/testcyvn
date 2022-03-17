@@ -1,0 +1,53 @@
+@media (max-width: 992px) {
+    .hide {
+        display: none;
+    }
+    .section .thumb {
+       top: 0;
+    }
+    .circle1 {
+        bottom: 26% !important;
+    }
+    .circle2 {
+        left: 19% !important;
+    }
+}
+@media (max-width: 768px) {
+    .section .thumb {
+        top: 6% !important;
+    }
+    .circle1 {
+        bottom: 35% !important;
+    }
+    .circle2 {
+        left: 3% !important;
+    }
+    .size-content {
+        font-size: 13px !important;
+    }
+    .hide {
+        display: none !important;
+    }
+    .add {
+        margin-top: 20px !important;
+    }
+    .footer-content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .circle1 {
+        height: 200px !important;
+        width: 200px !important;
+        bottom: 54% !important;
+    }
+    .sell-info {
+        width: 100vh !important;
+    }
+    .button-footer {
+        button {
+            padding: 10px 35px !important;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@mixin bg-cover {
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin button {
+    border: none;
+    background: none !important;
+}
+
+$pink : #FF5B79;
+$blue : #4BD4FF;
+$yellow : #FFDD2D;
+$gray : #868686;
+
+$white : #fff;
+

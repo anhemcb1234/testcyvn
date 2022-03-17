@@ -1,0 +1,33 @@
+@import "./variables";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.rele {
+    position: relative;
+}
+.font-b {
+    font-weight: 800;
+}
+.spacing {
+    letter-spacing: 4px;
+}
+.rele-t {
+    position: relative;
+    left: 1%;
+}
+.pink {
+    color: $pink;
+}
+.pink-b {
+    background-color: $pink;
+}
+.blue {
+    background-color: $blue;
+}
+.yellow {
+    background-color: $yellow;
+}
+.gray {
+    background-color: $gray;
+}
